@@ -1,0 +1,1 @@
+This repository contains the implementation of popular algorithms and data structures in C language.
