@@ -2,7 +2,8 @@
 
 int main()
 {
-    int n; 
+    int n;
+    printf("Enter any number: ");
     scanf("%d", &n);
 
     int sum = 0;
@@ -12,6 +13,7 @@ int main()
         n /= 10;
     }
 
-    printf("%d\n", sum);
+    printf("Here is a sum of digits: %d\n", sum);
+
     return 0;
 }
